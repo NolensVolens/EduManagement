@@ -18,3 +18,7 @@ springboot springcloud vue maven
 ###dao层（jpa）
 ###controller层
 ###service层
+
+6.12
+课程实体类 成绩表类，课程属性枚举类，课程类别枚举类
+学生增删改查
