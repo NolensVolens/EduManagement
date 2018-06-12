@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: prod
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/edumanagment
+    username: root
+    password: Admin
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
