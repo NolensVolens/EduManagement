@@ -15,6 +15,7 @@ import java.util.List;
  */
 @RequestMapping(value = "/student")
 @RestController
+//@RestController注解下默认类中的方法都会以json的格式返回
 public class StudentController {
 
     @Autowired
